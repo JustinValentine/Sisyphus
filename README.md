@@ -35,15 +35,15 @@ Sisyphus floats a small glass readout over full-screen Netflix, YouTube or anyth
   <img src="docs/overlay-compact.png" width="640" alt="Compact mode: a glass pill with power, cadence, heart rate and interval time">
 </p>
 
-> **Status: early.** Trainer control follows the Bluetooth FTMS specification, and its packet parsing and command sequencing are covered by tests. Reports from riders on different trainers are very welcome; please [open an issue](../../issues) with your trainer model.
+> **Status: early.** Trainer control follows the Bluetooth FTMS specification, and its packet parsing and command sequencing are covered by tests. Reports from riders on different trainers are very welcome; please [open an issue](https://github.com/JustinValentine/Sisyphus/issues) with your trainer model.
 
 ## Install
 
 Requires macOS 26 or newer and Apple's Command Line Tools (`xcode-select --install`). There are no dependencies, and Xcode isn't needed.
 
-Clone this repository, then from its folder:
-
 ```sh
+git clone https://github.com/JustinValentine/Sisyphus.git
+cd Sisyphus
 bash scripts/install.sh
 open /Applications/Sisyphus.app
 ```
